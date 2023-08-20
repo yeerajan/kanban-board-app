@@ -60,13 +60,13 @@ const KanbanBoard = () => {
   return (
     <div>
       <div className='display'>
-            <strong>Group by:</strong>
+            <strong>Grouping :</strong>
             <select value={groupingOption} onChange={handleGroupingChange}>
             <option value="user">User</option>
             <option value="status">Status</option>
             <option value="priority">Priority</option>
             </select>
-            <strong>Sort by:</strong>
+            <strong>Ordering :</strong>
             <select value={sortingOption} onChange={handleSortingChange}>
             <option value="priority">Priority</option>
             <option value="title">Title</option>

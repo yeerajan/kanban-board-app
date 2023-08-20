@@ -46,6 +46,25 @@
     color: white;
     background-color: rgb(6, 6, 49);
     border: 2px solid blue;
-    border-radius: 20px;
-    padding: 5px;
+    border-radius: 30px;
+    padding: 15px;
+  }
+  strong{
+    font-size: 40px;
+    background-color: blue;
+    color: white;
+    margin: 10px;
+    border: 2px solid blue;
+    border-radius: 30px;
+    padding: 15px;
+  }
+  @media only screen and (orientation: portrait) {
+    .kanban-board {
+      display: flex;
+      flex-direction: column;
+    }
+    strong,select option{
+      display: flex;
+      flex-direction: column;
+    }
   }
